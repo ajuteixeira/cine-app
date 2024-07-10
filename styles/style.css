@@ -45,6 +45,7 @@ h2 {
 }
 
 .movie-poster {
+  max-width: 222px;
   border-radius: 10px;
 }
 
@@ -69,6 +70,19 @@ h2 {
   font-weight: 300;
   border-radius: 8px;
   background-color: #444444;
+}
+
+.movie-gallery {
+  padding-right: 1.5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 15px;
+}
+
+.movie-gallery-poster {
+  max-width: 222px;
+  cursor: pointer;
 }
 
 nav {
