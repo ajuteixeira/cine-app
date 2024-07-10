@@ -16,7 +16,11 @@ body {
 }
 
 main {
-  padding: 3rem 2rem;
+  padding: 3rem 0;
+}
+
+section {
+  padding: 0 0 2.5rem 1.5rem;
 }
 
 h2 {
@@ -27,13 +31,17 @@ h2 {
 }
 
 .movie {
-  width: 222px;
-  display: flex;
-  flex-direction: column;
-  gap: .7rem;
-  justify-content: center;
-  align-items: flex-start;
   color: var(--text-color);
+  cursor: pointer;
+}
+
+.movie-poster,
+.movie-title {
+  padding-bottom: .3rem;
+}
+
+.movie-sinopse {
+  padding-bottom: .5rem;
 }
 
 .movie-poster {
