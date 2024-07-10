@@ -24,7 +24,7 @@ section {
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 1.7rem;
   font-weight: 900;
   padding-bottom: 1.5rem;
   color: var(--text-color);
@@ -49,12 +49,13 @@ h2 {
 }
 
 .movie-title {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   font-weight: 700;
 }
 
 .movie-sinopse {
-  font-size: .9rem;
+  font-size: .8rem;
+  line-height: .9rem;
 }
 
 .movie-sessions {
@@ -64,7 +65,8 @@ h2 {
 
 .movie-sessions span {
   padding: .6rem;
-  font-size: .8rem;
+  font-size: .7rem;
+  font-weight: 300;
   border-radius: 8px;
   background-color: #444444;
 }
@@ -74,7 +76,10 @@ nav {
   bottom: 0;
   width: 100%;
   display: flex;
-  justify-content: space-around;
+  padding: 0 1.5rem;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
   background-color: var(--nav-color);
 }
 
@@ -84,8 +89,8 @@ nav {
   align-items: center;
   justify-content: center;
   gap: 1rem;
-  padding-top: 0.5rem;
-  padding-bottom: 0.8rem;
+  padding-top: 0.6rem;
+  padding-bottom: 0.9rem;
   font-weight: 500;
   font-size: .6rem;
   letter-spacing: 0.4px;
@@ -108,6 +113,6 @@ nav {
 }
 
 .nav-item img {
-  width: 24px;
-  height: 24px;
+  width: 20px;
+  height: 20px;
 }
