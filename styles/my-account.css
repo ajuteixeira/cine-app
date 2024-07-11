@@ -1,0 +1,116 @@
+main:first-child {
+  padding-top: 0;
+}
+
+section {
+  padding: 2.5rem 1.5rem;
+  border-bottom: 1px solid #262626;
+}
+
+.profile-container {
+  display: flex;
+  line-height: 18.75px;
+}
+
+.left-container,
+.right-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: .8rem;
+}
+
+.left-container {
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.right-container {
+  font-weight: 400;
+  color: var(--secondary-text-color);
+}
+
+.rewards-progress img {
+  width: 3rem;
+}
+
+.rewards-tickets {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.active-icon,
+.disabled-icon {
+  width: .5rem;
+}
+
+.disabled-icon {
+  opacity: 20%;
+}
+
+.active-rewards img {
+  width: 30px;
+}
+
+.active-rewards p {
+  color: var(--secondary-text-color);
+}
+
+.rewards-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.rewards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rewards-info {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  gap: .7rem;
+}
+
+.rewards button {
+  font-weight: 400;
+  padding: 8px 12px;
+  color: #dddddd;
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.rewards button:hover {
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+.details {
+  display: flex;
+}
+
+.details h3,
+.details-links {
+  width: 50%;
+}
+
+.details-links {
+  display: flex;
+  flex-direction: column;
+  gap: .8rem;
+}
+
+.details-links a {
+  color: #0c8ce9;
+}
+
+.details-links a:last-child {
+  color: #e84a4a;
+}
