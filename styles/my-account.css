@@ -92,6 +92,10 @@ section {
   border: 1px solid #ffffff;
 }
 
+.movie-poster {
+  border-radius: 0;
+}
+
 .details {
   display: flex;
 }
