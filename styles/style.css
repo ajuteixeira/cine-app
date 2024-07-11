@@ -72,16 +72,27 @@ h2 {
   background-color: #444444;
 }
 
-.movie-gallery {
+.coming-soon,
+.recently-watched,
+.stream-on-demand {
   padding-right: 1.5rem;
+}
+
+.biggest-movie-gallery,
+.smaller-movie-gallery {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  justify-content: start;
   gap: 15px;
+  box-sizing: border-box;
+}
+
+.biggest-movie-gallery {
+  grid-template-rows: 1fr 1fr;
 }
 
 .movie-gallery-poster {
-  max-width: 222px;
+  width: 100%;
   cursor: pointer;
 }
 
