@@ -1,0 +1,12 @@
+main:first-child {
+  padding-top: 0;
+}
+
+section {
+  padding: 2.5rem 1.5rem;
+  border-bottom: 1px solid #262626;
+}
+
+img {
+  width: 105px;
+}
