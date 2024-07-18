@@ -1,0 +1,51 @@
+h2 {
+  padding: 1.5rem;
+}
+
+h3 {
+  padding-bottom: 0;
+}
+
+section {
+  padding: 0 1.5rem 2.5rem 1.5rem;
+}
+
+img {
+  width: 105px;
+}
+
+#mapid {
+  height: 80vh;
+  width: 100%;
+  position: relative;
+  z-index: -1;
+}
+
+.theaters {
+  /* width: 100%; */
+  position: fixed;
+  bottom: 58px;
+  padding: 1.5rem;
+  border-radius: 1.5rem 1.5rem 0 0;
+  background-color: #141414;
+  opacity: 97%;
+  /* background-color: red; */
+  z-index: 1;
+}
+
+.theater {
+  display: flex;
+  flex-direction: column;
+  gap: .3rem;
+  padding-bottom: 1rem;
+}
+
+p {
+  font-size: .8rem;
+  line-height: 14.32px;
+  color: #C6C6CD;
+}
+
+nav {
+  z-index: 2;
+}

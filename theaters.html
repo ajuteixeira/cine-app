@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CineApp | Theaters</title>
+  <link rel="stylesheet" href="/styles/reset.css">
+  <link rel="stylesheet" href="/styles/style.css">
+  <link rel="stylesheet" href="/styles/theaters.css">
+  <script src="/scripts/map.js" defer></script>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css"
+    integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14=" crossorigin="" />
+  <!-- Make sure you put this AFTER Leaflet's CSS -->
+  <script src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js"
+    integrity="sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg=" crossorigin=""></script>
+</head>
+
+<body>
+  <main>
+    <h2>Theaters</h2>
+    <div id="mapid"></div>
+    <section class="theaters">
+      <div class="theater">
+        <h3>Cinema Iguatemi</h3>
+        <p>Av. Washington Soares, 85 - Edson Queiroz, Fortaleza - CE, 60811-341</p>
+      </div>
+      <div class="theater">
+        <h3>Cinema Rio Mar Kennedy</h3>
+        <p>Av. Sgt. Hermínio Sampaio, 3100 - 3001 - Pres. Kennedy, Fortaleza - CE, 60320-504</p>
+      </div>
+      <div class="theater">
+        <h3>Cinema North Shopping Jóquei</h3>
+        <p>North Shopping Jóquei, Av. Lineu Machado, 419 - Jóquei Clube, Fortaleza - CE, 60520-102</p>
+      </div>
+    </section>
+    <nav>
+      <li class="nav-item">
+        <a href="index.html"><img class="nav-icon" src="assets/icons/discover.svg"
+            alt="discover icon"><span>Discover</span></a>
+      </li>
+      <li class="nav-item">
+        <a href="my-tickets.html"><img class="nav-icon" src="assets/icons/ticket.svg"
+            alt="discover icon"><span>Tickets</span></a>
+      </li>
+      <li class="nav-item">
+        <a href="theaters.html"><img class="nav-icon" src="assets/icons/theaters.svg"
+            alt="discover icon"><span>Theaters</span></a>
+      </li>
+      <li class="nav-item">
+        <a href="my-account.html"><img class="nav-icon" src="assets/icons/account.svg"
+            alt="discover icon"><span>Account</span></a>
+      </li>
+    </nav>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+    <script src="/scripts/index.js"></script>
+
+</body>
+
+</html>
