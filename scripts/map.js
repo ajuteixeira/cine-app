@@ -4,13 +4,13 @@ function success(pos) {
   if (map === undefined) {
     map = L.map("mapid").setView(
       [pos.coords.latitude, pos.coords.longitude],
-      13
+      12
     );
   } else {
     map.remove();
     map = L.map("mapid").setView(
       [pos.coords.latitude, pos.coords.longitude],
-      13
+      12
     );
   }
 
