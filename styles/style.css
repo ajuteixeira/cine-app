@@ -54,6 +54,7 @@ h3 {
 
 .movie-poster {
   max-width: 222px;
+  height: 333px;
   border-radius: 10px;
 }
 
