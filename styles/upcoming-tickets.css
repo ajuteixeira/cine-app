@@ -1,6 +1,6 @@
 body {
   min-height: 100vh;
-  background-image: linear-gradient(to top, transparent 0%, var(--bg-color) 40%), url(assets/img/bg.jpg);
+  background-image: linear-gradient(to top, transparent 0%, var(--bg-color) 40%), url(https://diplomatique.org.br/wp-content/uploads/2020/01/filme-parasita.jpg);
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: 150%;
