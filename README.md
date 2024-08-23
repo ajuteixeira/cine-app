@@ -14,6 +14,7 @@
 
 ## 📱 Visualização
 - Abra o projeto no [GitHub Pages](https://ajuteixeira.github.io/cine-app/), use o modo mobile do inspetor de elementos e explore as diversas visualizações do projeto
+- Utilize o *modo mobile* do inspetor de elementos para visualizar
 
 https://github.com/user-attachments/assets/f78e3836-e769-44ee-80a1-5c5793e5f356
 
